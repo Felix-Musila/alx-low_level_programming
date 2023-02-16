@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILE -o c"\n"
+gcc -E $CFILE -o c
+
