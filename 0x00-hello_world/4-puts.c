@@ -1,9 +1,13 @@
 #include <stdio.h>
 
-/* My first C-code */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char string1[] = "Programming is like building a multilingual puzzle";
+	char string1[] = "Programming is like building a multilingual puzzle\n";
 
 	puts(string1);
 
