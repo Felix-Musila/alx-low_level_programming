@@ -4,6 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
 /**
  * main - Entry point
  *
@@ -17,7 +18,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* Checks last digit of n
+	
+	/*
+	 * Checks last digit of n
 	 * */
 	
 	l = n % 10;
