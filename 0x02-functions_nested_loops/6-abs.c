@@ -6,10 +6,8 @@
  * Return: 0 Success
  */
 
-int _abs(int)
+int _abs(int i)
 {
-	int i;
-
 	if (i >= 0)
 		_putchar(i + '0');
 	else
