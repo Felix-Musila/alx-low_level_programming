@@ -9,8 +9,8 @@
 int _abs(int i)
 {
 	if (i >= 0)
-		_putchar(i + '0');
+		_putchar(i);
 	else
-		_putchar((i * -1) + '0');
+		_putchar(i * -1);
 	return (0);
 }
