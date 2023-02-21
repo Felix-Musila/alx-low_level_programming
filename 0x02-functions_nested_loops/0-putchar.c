@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * main - A program that prints _putchar
+ * Return: 0 Success
+ */
 int main(void)
 {
 	char c[] = "_putchar";
