@@ -18,8 +18,9 @@ void times_table(void)
 			pdt = j*k;
 			_putchar(pdt + '0');
 			if (k == 9)
-				continue;
-			_putchar(',');
+				_putchar('\n');
+			else
+				_putchar(',');
 			if (pdt > 9)
 				_putchar(' ');
 			else
@@ -27,7 +28,6 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(' ');
 			}
-				_putchar('\n');
 
 		}
 	}
