@@ -14,19 +14,9 @@ void more_numbers(void)
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			int ones = (j / 10);
-			int tens = ((j % 10) + 10);
-
-			while (j <= 9)
-			{
-				_putchar(ones + '0');
-				j++;
-			}
-			while (j > 9)
-			{
-				_putchar(tens + '0');
-				j++;
-			}
+			if (j > 9)
+				_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 		}
 	}
 	_putchar('\n');
