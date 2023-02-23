@@ -14,9 +14,15 @@ void more_numbers(void)
 	{
 		for (j = 0; j <= 14; j++)
 		{
+			char c;
+			int tens = ((j % 10) + 10);
+			
+			for (c = 48; c <= 57; c++)
+			{
+				_putchar(c);
+			}
 			if (j > 9)
-				_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
+				_putchar(tens + '0');
 		}
 	}
 	_putchar('\n');
