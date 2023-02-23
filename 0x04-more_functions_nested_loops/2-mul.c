@@ -2,7 +2,8 @@
 
 /**
  * mul - A function that multiplies two integers
- * @a @b: The two integers
+ * @a: The first integer
+ * @b: The second integer
  */
 
 int mul(int a, int b)
