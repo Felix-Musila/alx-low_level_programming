@@ -16,7 +16,6 @@ void more_numbers(void)
 		{
 			char c;
 			int tens = ((j % 10) + 10);
-			
 			for (c = 48; c <= 57; c++)
 			{
 				_putchar(c);
