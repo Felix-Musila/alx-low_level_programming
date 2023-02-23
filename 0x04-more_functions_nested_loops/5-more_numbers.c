@@ -22,6 +22,6 @@ void more_numbers(void)
 			else
 				_putchar(tens);
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
