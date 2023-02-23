@@ -16,6 +16,7 @@ void more_numbers(void)
 		{
 			char c;
 			int tens = ((j % 10) + 10);
+
 			for (c = 48; c <= 57; c++)
 			{
 				_putchar(c);
@@ -23,6 +24,6 @@ void more_numbers(void)
 			if (j > 9)
 				_putchar(tens + '0');
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
