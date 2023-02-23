@@ -18,9 +18,9 @@ void more_numbers(void)
 			int tens = ((j % 10) + 10);
 
 			if (j < 9)
-				_putchar(ones);
+				_putchar(ones + '0');
 			else
-				_putchar(tens);
+				_putchar(tens + '0');
 		}
 	}
 	_putchar('\n');
