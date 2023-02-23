@@ -17,10 +17,16 @@ void more_numbers(void)
 			int ones = (j / 10);
 			int tens = ((j % 10) + 10);
 
-			if (j < 9)
+			while (j <= 9)
+			{
 				_putchar(ones + '0');
-			else
+				j++;
+			}
+			while (j > 9)
+			{
 				_putchar(tens + '0');
+				j++;
+			}
 		}
 	}
 	_putchar('\n');
